@@ -16,7 +16,7 @@
 //************************************************************************
 // Constructor
 // Set pins for each segment 
-LM7SegDirect::LM7SegDirect(byte segA, byte segB, byte segC, byte segD, byte segE, byte segF, byte segG, byte segDotn, byte isAnode) {
+LM7SegDirect::LM7SegDirect(byte segA, byte segB, byte segC, byte segD, byte segE, byte segF, byte segG, byte segDotn, boolean isAnode) {
 	_segA = segA;
 	_segB = segB;
 	_segC = segC;
